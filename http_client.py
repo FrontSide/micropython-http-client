@@ -118,3 +118,7 @@ def get(url, **kwargs):
 
 def post(url, **kwargs):
     return request('POST', url, **kwargs)
+
+
+def put(url, **kwargs):
+    return request('PUT', url, **kwargs)
